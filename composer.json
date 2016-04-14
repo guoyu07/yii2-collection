@@ -20,7 +20,16 @@
         "yiisoft/yii2-swiftmailer": "*",
         "dektrium/yii2-user": "0.9.*@dev",
         "zhuravljov/yii2-rest": "*",
-        "yiisoft/yii2-httpclient": "@dev"
+        "yiisoft/yii2-httpclient": "@dev",
+        "yiisoft/yii2-redis": "*",
+        "dmstr/yii2-adminlte-asset": "2.*",
+        "kartik-v/yii2-grid": "*",
+        "kartik-v/yii2-dynagrid": "*",
+        "kartik-v/yii2-date-range": "dev-master",
+        "kartik-v/yii2-widget-fileinput": "@dev",
+        "kartik-v/yii2-widget-select2": "@dev",
+        "xj/yii2-ueditor-widget": "^1.0",
+        "mdmsoft/yii2-admin": "~2.0"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",
