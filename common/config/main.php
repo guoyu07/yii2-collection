@@ -19,6 +19,7 @@ return [
     ],
     'aliases' => [
         '@mdm/admin' => '@vendor/mdmsoft/yii2-admin',
+        '@funson86/setting' => '@vendor/funson86/setting',
         // for example: '@mdm/admin' => '@app/extensions/mdm/yii2-admin-2.0.0',
     ],
 ];

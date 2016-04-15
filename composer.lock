@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2f36c3afb96769d3473d7e13d5a1fd52",
-    "content-hash": "30e2675d50f7e86232fbe4b3860738ea",
+    "hash": "5df86f0256a1d48fb325b72183ad02d3",
+    "content-hash": "162583adb3a469bc888bdbc34720c96d",
     "packages": [
         {
             "name": "almasaeed2010/adminlte",
@@ -560,6 +560,50 @@
                 "html"
             ],
             "time": "2013-11-30 08:25:19"
+        },
+        {
+            "name": "funson86/yii2-setting",
+            "version": "0.01",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/funson86/yii2-setting.git",
+                "reference": "4488822bb7ae5bcdf3d80f32fecceb398a3a22ea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://packagist.phpcomposer.com/files/funson86/yii2-setting/4488822bb7ae5bcdf3d80f32fecceb398a3a22ea.zip",
+                "reference": "4488822bb7ae5bcdf3d80f32fecceb398a3a22ea",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "bootstrap": "funson86\\setting\\Bootstrap"
+            },
+            "autoload": {
+                "psr-4": {
+                    "funson86\\setting\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Funson Lee",
+                    "email": "funson86@gmail.com"
+                }
+            ],
+            "description": "Yii2 Setting for other application",
+            "keywords": [
+                "extension",
+                "setting",
+                "yii2"
+            ],
+            "time": "2015-01-27 00:39:55"
         },
         {
             "name": "kartik-v/bootstrap-fileinput",
