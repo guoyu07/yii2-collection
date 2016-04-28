@@ -80,4 +80,14 @@ class SiteController extends Controller
 
         return $this->goHome();
     }
+
+    /**
+     * test
+     * @param string $test
+     * @return string
+     */
+    public function actionTest($test)
+    {
+        return $test;
+    }
 }
